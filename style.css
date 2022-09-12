@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* the container tag  */
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+/* the first container  */
+
+.container1{
+    background: url(One.jpg) no-repeat;
+    background-size: cover;
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* the first container p tag*/
+
+.container1 p{
+    position: absolute;
+    bottom: 0%;
+    color: #fff;
+}
+
+/* the first container a tag*/
+
+.container1 p a{
+    color: #25b0c2;
+}  
+
+/* the logo selector*/
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -25%;
+    padding: 40px;
+    color: #fff;
+    background: #1b1b1b;
+    width: 100%;
+    opacity: 0.9;
+}
+
+/* the image in logo selector*/
+
+.logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* the second container tag*/
+
+.container2{
+    flex-basis: 60%;
+    width: 100%;
+}
+
+/* the first item in the second container tag*/
+
+.items1{
+    background: hsl(210deg 20% 98%);
+    height: 30vh;
+}
+
+/* the h2 in items1 selector*/
+
+.items1 h2{
+    padding: 55px 0 0 40px;
+    width: 80%;
+    font-size: 20px;
+}
+
+/* the h3 in items1 selector*/
+
+.items1 h3{
+    padding: 15px 0 0 40px;
+    width: 80%;
+    font-size: 20px;
+}
+
+/* the second item in the second container tag*/
+
+.items2{
+    height: 40vh;
+    background: #fff;
+    box-shadow: 1px 0px 10px 2px #1b1b1b;
+}
+
+/* the h3 in items2 selector*/
+
+.items2 h3{
+    padding: 30px 0 20px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* the label in items2 selector*/
+
+.items2 label{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+/* the input in items2 selector*/
+
+.items2 input{
+    outline: none;
+    width: 230px;
+    border-radius: 4px;
+    height: 30px;
+    margin: 0 40px 20px 40px;
+}
+
+/* the input:pseudo in items2 selector*/
+
+.items2 input:focus{
+    border: 3px solid #25b0c2;
+    box-shadow: 0px 4px 10px 3px #6e6e6e;
+}
+
+/* the third item in the second container tag*/
+
+.items3{
+    margin: 20px 0 0 40px;
+}
+
+/* the button in items3 selector*/
+
+.items3 button{
+    cursor: pointer;
+    box-shadow: 0px 4px 10px 3px #6e6e6e;
+    background-color: #596D48;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin: 30px 0 20px 0;
+    padding: 13px 30px;
+    transition: 0.9s;
+}
+
+/* the button:pseudo in items3 selector*/
+
+.items3 button:hover{
+    transform: translateY(-10px);
+    background: #fff;
+    border: 1px transparent #596D48;
+    color: #5b7741;
+}
+
+/* the a in items3 selector*/
+
+.items3 a{
+    text-decoration: none;
+    color: #5b7741;
+}
